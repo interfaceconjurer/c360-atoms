@@ -1,0 +1,9 @@
+@import "~/node_modules/@salesforce-ux/c360-styling-hooks/dist/hooks.custom-props.css";
+@import "~/node_modules/@salesforce-ux/c360-foundation/dist/index.css";
+@import "~/node_modules/@salesforce-ux/c360-grid/dist/index.css";
+
+  h1 {
+    /* Directly reference C360 Styling Hook */
+    color: var(--c360-g-color-neutral-base-4);
+    font-size: var(--c360-g-font-size-10);
+  }
